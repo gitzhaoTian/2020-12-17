@@ -1,4 +1,7 @@
 package com.example.myapplication.base;
 
-public class BaseActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public abstract class BaseActivity<T> extends AppCompatActivity {
+
 }
