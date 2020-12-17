@@ -1,3 +1,4 @@
+include ':day12_17youye'
 include ':day12_17'
 include ':app'
 rootProject.name = "My Application"
