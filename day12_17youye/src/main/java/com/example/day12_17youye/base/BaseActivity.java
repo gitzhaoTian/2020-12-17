@@ -5,6 +5,8 @@ import android.os.Bundle;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import butterknife.ButterKnife;
+
 public abstract class BaseActivity<T> extends AppCompatActivity {
     public T presenter;
 
@@ -12,6 +14,8 @@ public abstract class BaseActivity<T> extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(getLayoutId());
+        // TODO: add setContentView(...) invocation
+        ButterKnife.bind(this);
         if (presenter==null){
             presenter = getPresenter();
         }

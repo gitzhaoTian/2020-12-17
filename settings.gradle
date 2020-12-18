@@ -1,3 +1,6 @@
+include ':day12_18lianxi2'
+include ':day12_18lianxi'
+include ':day12_18'
 include ':day12_17youye'
 include ':day12_17'
 include ':app'
