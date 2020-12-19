@@ -1,3 +1,5 @@
+include ':day12_18daohang'
+include ':day12_18_daohang'
 include ':day12_18lianxi2'
 include ':day12_18lianxi'
 include ':day12_18'
